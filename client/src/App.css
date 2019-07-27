@@ -1,0 +1,264 @@
+#spanheader {
+    color: rgb(228, 163, 24);
+}
+#navbar {
+    background-color: #d05c62  !important;
+    margin-bottom: 5px !important;
+    width: 98%;
+    margin-left: 1%;
+}
+.nav-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+#header {
+    margin-top: 67px;
+}
+#boutton-inscrire {
+    background-color: #f3671f !important;
+}
+#carte {
+    box-shadow: 0px 3px 0px #d05c62;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#imageproduit {
+    border-radius: 5px !important;
+}
+#nomproduit {
+    font-size: 20px;
+    color: #d05c62;
+    font-weight: bold;
+}
+#h3vide{
+    padding-left: 100px;
+    color: #d05c62 !important;
+}
+.thtab {
+    color: #d05c62;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+td {
+    width: 90px;
+    text-align: center;
+    font-weight: bold;
+}
+#h4tableau {
+    color: #f3671f;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#ajouter_boutton {
+    height: 50px;
+    line-height: 50%;
+}
+#logoimage {
+    width: 50px;
+    height: 50px;
+}
+#inscrire-btn {
+    height: 50px;
+    background-color: #f3671f !important; 
+}
+#bouton-connecter {
+    height: 50px;
+    background-color: #f3671f !important;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+#fichier {
+    background-color: #f3671f !important;
+    height: 40px;
+    font-weight: bold;
+}
+#boutton-accueil {
+    height: 50px;
+    line-height: 25px;
+}
+#h2accueil{
+    font-weight: bold;
+    color: #f8f6f5  !important;
+}
+#colonne2 {
+    padding-top: 20px
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: #df723c !important;
+    color: #fff;
+    transition: all 0.3s;
+}
+#h3header {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+#imagedash {
+    width: 100px;
+    height: 100px;
+   margin-top: 50px;
+}
+#li1 {
+    background-color: #d05c62 !important;;
+}
+#pdash {
+    color: #f3671f;
+    font-weight: bold;
+}
+#loginrow {
+    margin-top: 200px;
+    transition: transform .2s; 
+    border-style: groove;
+    border-width: 2px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+#loginrow:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  }
+#loginp {
+    color: #f3671f;
+    font-size: 25px;
+}
+#btn-modifier {
+    background-color: #f3671f !important;
+    height: 50px;
+    line-height: 25px;
+}
+#okajout {
+    background-color: #f3671f !important;
+}
+
+@media only screen and (max-width: 600px) {
+   .wrapper {
+       display: none
+   }
+   #table {
+       display:
+       inline-block;
+   }
+   #ajoutercomponent {
+    display: initial;
+}
+  }
+
+#ajoutercomponent {
+    display: none;
+}
+#listecomponent {
+    display: none;
+}
+#linkseconnecter {
+    color: #d05c62;
+}
+#footer {
+    height: 70px;
+    line-height: 35px;
+    background-color: #d05c62;
+   
+}
+#spanfooter {
+    font-weight: bold
+}
+footer {
+    height: 100px;
+    width: 100%;
+}
+#footerdash {
+    position: fixed;
+    height: 70px;
+    line-height: 35px;
+    width: 100%;
+    background-color: #df723c !important;
+}
+.zonetext2, ::placeholder { 
+    color: whitesmoke;
+    opacity: 1;
+    width: 100px;
+    height: 200px;
+
+  } 
+    
+
+#h2popups {
+    color: #d05c62 !important;
+}
+#div1 {
+     border: groove;
+     padding: 70px;
+     border-color: #d05c62;
+     border-radius: 10px;
+     background-color: #d4c0c1;
+}
+#
+ {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50%
+}
+#bouttonconfirmer {
+    background-color: #d05c62 !important;
+    font-weight: bold
+}
+#bottonanuler {
+    background-color: #f3671f !important;
+    font-weight: bold
+}
+
+  body {
+    font-family: 'Open Sans';
+  }
+  #bottonactivez {
+      height: 40px;
+      line-height: 50%;
+      border-radius: 15px;
+  }
+  #bottondesactivez {
+    height: 40px;
+    line-height: 50%;
+    border-radius: 15px;
+}
+#zetina {
+    z-index: -1;
+    background-color: #df723c !important;
+}
